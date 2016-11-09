@@ -28,8 +28,13 @@ This repository contains the materials to build a demo to show the integration o
     - In the text field, enter bonitaQueue and click on "Create"
 
 #### Apache Camel
+ - Go to camel-bonita folder in the this project and run the command to build the web application:
+     ```sh
+    $ mvn clean package
+    ```
+NOTE: If you want to compile it with JAVA 7 please update the pom.xml (TBC)
 
- - Go to camel-web and run the command to build the web application:
+ - Go to camel-web folder in the this project and run the command to build the web application:
      ```sh
     $ mvn clean package
     ```
